@@ -1,0 +1,57 @@
+.filmi{
+  height: 76vh;
+}
+
+.filmsSection {
+  padding: 40px;
+  text-align: center;
+  }
+
+.filmsHeading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filmsList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.filmItem {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filmItem:hover {
+  transform: scale(1.05);
+}
+
+.filmTooltip {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.filmTooltipTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.filmTooltipDescription {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
